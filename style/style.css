@@ -1,0 +1,56 @@
+.wrapper {
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(30, 30, 30);
+    height: 100%;
+    align-items: center;
+}
+
+.calculator {}
+
+.inputs {
+    display: flex;
+    column-gap: 0;
+    height: 30px;
+}
+
+.number1 {
+    width: 100px;
+    background-color: #ff7500;
+    border-color: #bf982d;
+}
+
+.number2 {
+    width: 100px;
+    background-color: #ff7500;
+    border-color: #bf982d;
+}
+
+.answer {
+    background-color: #ff7500;
+    border-color: #bf982d;
+}
+
+.signs {
+    display: flex;
+    column-gap: 0;
+}
+
+.btn {
+    width: 25%;
+    background-color: #1f889e;
+
+}
+
+.plus {}
+
+.minus {}
+
+.multiply {}
+
+.divide {}
